@@ -5,7 +5,7 @@
     <div class="footer-content">
         <div class="footer-logo">
             <div class="image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/again.png" alt="<?php bloginfo('clinic'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/logo.png" alt="<?php bloginfo('clinic'); ?>">
             </div>
         </div>
         <div class="footer-text">
