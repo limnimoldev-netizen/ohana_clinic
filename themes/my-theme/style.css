@@ -376,5 +376,163 @@ header{
 
 }
 
+.image-patient{
+    width: 100%;
+    border-radius: 50px;
+    overflow: hidden;
+    text-align: center;
 
 
+
+}
+
+.image-patient img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+
+
+}
+
+.patient-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;  
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #90e0ef;
+    transition: transform 0.4s ease;
+}
+
+.patient-items:hover{
+    background-color: #48cae4;
+    color: white;
+    transform: translateY(-10px);
+
+}   
+.patient-content{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+.patient-says{
+    margin-top: 20px;
+    text-align: center;
+    width:390px;
+    
+}
+
+.patient-says h3{
+    margin-top: 10px;   
+    color: #03045e; 
+}
+.icon-rating{
+    color: #ffb703;
+    margin-top: 10px;
+    text-align: center;
+}
+.icon-rating i{
+    font-size: 15px;
+}
+.patient-content p{
+    margin-top: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+.appt-box{
+    width: 400px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #caf0f8;    
+
+}
+
+
+
+.appt-box form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+
+}
+
+.appt-box form input{
+    padding: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: gray;
+    font-size: 14px;
+
+}
+
+.appt-box form select{
+    padding: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+.appt-box form button{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: #03045e;
+    color: white;
+    transition: transform 0.4s ease;
+
+}
+.appt-box form button:hover{
+    background-color: #00b4d8;
+    color: #03045e;
+    transform: translateY(-10px);
+}
+
+
+
+.message :required {
+    color: gray;
+    width: 369px;
+    padding-bottom: 100px;
+    
+
+}
+
+.appt-image{
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.appt-image img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.appt-content{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;   
+
+    
+}
