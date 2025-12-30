@@ -315,49 +315,49 @@
 
 <section class="appointment-page">
     <h1 class="tittle"><span>Make an Appointment</span> To Visit Our Dovtor</h1>
+   
+        <div class="appt-content">
 
-    <div class="appt-content">
-
-        <div class="appt-box">
-            <form action="">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <input type="tel" placeholder="Your Mobile" required>
-                <input type="date" placeholder=" Date" required>
+            <div class="appt-box">
+                <form action="">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Mobile" required>
+                    <input type="date" placeholder=" Date" required>
 
 
-                <select required>
-                    <option value="" disabled selected>Choose Doctor</option>
-                    <option value="cardiology">Dr. Jane Smith</option>
-                    <option value="pediatrics">Dr. John Doe</option>
-                    <option value="orthopedics">Dr. Emily Johnson</option>
-                    <option value="neurology">Dr. Michael Brown</option>
-                    <option value="gynecology">Dr. Sarah Davis</option>
-                    <option value="pulmonary">Dr. Robert Wilson</option>
-                </select>
+                    <select required>
+                        <option value="" disabled selected>Choose Doctor</option>
+                        <option value="cardiology">Dr. Jane Smith</option>
+                        <option value="pediatrics">Dr. John Doe</option>
+                        <option value="orthopedics">Dr. Emily Johnson</option>
+                        <option value="neurology">Dr. Michael Brown</option>
+                        <option value="gynecology">Dr. Sarah Davis</option>
+                        <option value="pulmonary">Dr. Robert Wilson</option>
+                    </select>
 
-                
-                <select required>
-                    <option value="cardiology">Cardiology</option>
-                    <option value="pediatrics">Pediatrics</option>
-                    <option value="orthopedics">Orthopedics</option>
-                    <option value="neurology">Neurology</option>
-                    <option value="gynecology">Gynecology</option>
-                    <option value="pulmonary">Pulmonary</option>
-                </select>
-                <div class="message">    
-                    <input type="text" placeholder="Your Message" required>
+                    
+                    <select required>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="pediatrics">Pediatrics</option>
+                        <option value="orthopedics">Orthopedics</option>
+                        <option value="neurology">Neurology</option>
+                        <option value="gynecology">Gynecology</option>
+                        <option value="pulmonary">Pulmonary</option>
+                    </select>
+                    <div class="message">    
+                        <input type="text" placeholder="Your Message" required>
 
-                </div>
-                <button type="submit" class="submit-btn">Book Appointment</button>
-            </form>
+                    </div>
+                    <button type="submit" class="submit-btn">Book Appointment</button>
+                </form>
+            </div>
+
+            <div class="appt-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctors.png" alt="<?php bloginfo('clinic'); ?>">
+            </div>
+
         </div>
-
-        <div class="appt-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctors.png" alt="<?php bloginfo('clinic'); ?>">
-        </div>
-
-    </div>
 
 </section>
 

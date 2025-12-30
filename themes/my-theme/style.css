@@ -451,9 +451,9 @@ header{
 
 .appt-box{
     width: 400px;
-    padding: 50px;
+    padding: 7px;
     border-radius: 10px;
-    background-color: #caf0f8;    
+    /* background-color: #caf0f8;     */
 
 }
 
@@ -473,7 +473,7 @@ header{
     border-radius: 5px;
     border: none;
     background-color: white;
-    color: gray;
+    color:#332e2e;
     font-size: 14px;
 
 }
@@ -483,8 +483,10 @@ header{
     border-radius: 5px;
     border: none;
     background-color: white;
-    color: gray;
+    color: #332e2e;
     font-size: 14px;
+    display: flex;
+
 }
 
 
@@ -501,14 +503,14 @@ header{
 }
 .appt-box form button:hover{
     background-color: #00b4d8;
-    color: #03045e;
+    color: white;
     transform: translateY(-10px);
 }
 
 
 
 .message :required {
-    color: gray;
+    color: #2a3b5f;
     width: 369px;
     padding-bottom: 100px;
     
@@ -516,14 +518,14 @@ header{
 }
 
 .appt-image{
-    width: 400px;
+    width: 400;
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
 }
 .appt-image img{
-    width: 400px;
-    height: 400px;
+    width: 529px;
+    height: 589px;
     object-fit: cover;
 }
 
@@ -531,8 +533,211 @@ header{
 .appt-content{
     display: flex;
     gap: 30px;
-    justify-content: center;
     margin-top: 50px;   
-
+    background-color: #caf0f8;
+    justify-content: center;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
     
+}
+
+
+
+.banner2 {
+    position: relative;
+    width: 100%;
+    /* background-color: blue; */
+
+}
+.hero-banner2 {
+    position: relative;
+    text-align: center;
+    
+
+}
+.banner2{
+    position: absolute;
+    top: 157px;
+    right: 365px;
+}
+
+.banner2 h1{
+    color: #caf0f8;
+    font-size: 36px;
+}
+
+
+.btn-inbox2 button{
+    color: #caf0f8;
+    background-color: #03045e;
+    border: none;
+    border-radius:5px;
+    width: 180px;
+    padding: 15px;
+    font-size: 16px;
+    transition: transform 0.4s ease;
+
+}
+.btn-inbox2 :hover{
+    color: #03045e;
+    background-color: #00b4d8;
+}
+
+.logo-banner2 img{
+    width: 100%;
+    height: 480px;
+    
+
+}
+.banner2 p{
+    color: #caf0f8;
+    font-size: 18px;
+}
+.banner2 h1{
+    color: #caf0f8;
+    font-size: 36px;
+    line-height: 10px;
+}
+
+
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+.banner3 {
+    position: relative;
+    width: 100%;
+    /* background-color: blue; */
+
+}
+.hero-banner3 {
+    position: relative;
+    text-align: center;
+    
+
+}
+.banner3{
+    position: absolute;
+    top: 157px;
+    right: 365px;
+}
+
+.banner3 h1{
+    color: #caf0f8;
+    font-size: 36px;
+}
+
+
+.btn-inbox3 button{
+    color: #caf0f8;
+    background-color: #03045e;
+    border: none;
+    border-radius:5px;
+    width: 180px;
+    padding: 15px;
+    font-size: 16px;
+    transition: transform 0.4s ease;
+
+}
+.btn-inbox3 :hover{
+    color: #03045e;
+    background-color: #00b4d8;
+}
+
+.logo-banner3 img{
+    width: 100%;
+    height: 480px;
+    
+
+}
+.banner3 p{
+    color: #caf0f8;
+    font-size: 18px;
+}
+.banner3 h1{
+    color: #caf0f8;
+    font-size: 36px;
+    line-height: 10px;
+}
+
+
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 14px;
+  margin-bottom: 15px;
 }
