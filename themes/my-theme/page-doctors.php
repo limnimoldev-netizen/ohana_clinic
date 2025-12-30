@@ -7,25 +7,10 @@
         </div>
 
         <div class="banner">
-            <h1>About us </h1>
-            <p>Home/page/About</p>
-        </div>
-    </div>
-    <div class="section">
-        <div class="section-image">
-            <div class="section-image1">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/service-one.jpg" alt="<?php bloginfo('clinic'); ?>">
+            <h1>Your health is our priorty</h1>
+             <div class="btn-inbox">
+                <button class="appoinment">Book Appointment</button>
             </div>
-        </div>
-        <div class="section-box">
-            <h1>Our Story</h1>
-            <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, minima."</p>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus totam ducimus <br> est vero, officiis, placeat optio. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>  Alias aliquam nesciunt fugit optio illum aut. Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Neque assumenda, est quam perferendis expedita autem?</span>
-            <h3>Mission</h3>
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nihil dolorum beatae <br>consequatur mollitia iure?</span>
-            <h3>Vision</h3>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda consectetur <br> adipisci, voluptatum dolores nostrum omnis.</span>
-        </div>
         </div>
     </div>
 </section>
@@ -121,6 +106,95 @@
     </div>   
 </section>
 
+<section class="doctor-section">
+        
+        <div class="doctor-list">
+            
+            <div class="doctor-box">
+                <div class="image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor3.png" alt="<?php bloginfo('clinic'); ?>">
+                </div>
+                
+                <div class="name-dr">
+                    <h3 class="name">Dr. Jane Smith </h3>
+                    <p>Department</p>
+                    
+                    <div class="icon-dr">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="btn-pf">
+                        <button class="profile">View Profile</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="doctor-box">
+                <div class="image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor4.png" alt="<?php bloginfo('clinic'); ?>">
+                </div>
+                
+                <div class="name-dr">
+                    <h3 class="name">Dr. Marry Lou</h3>
+                    <p>Department</p>
+                    
+                    <div class="icon-dr">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="btn-pf">
+                        <button class="profile">View Profile</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="doctor-box">
+                <div class="image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor1.png" alt="<?php bloginfo('clinic'); ?>">
+                </div>
+                
+                <div class="name-dr">
+                    <h3 class="name">Dr. Sansa Stark</h3>
+                    <p>Department</p>
+                    
+                    <div class="icon-dr">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="btn-pf">
+                        <button class="profile">View Profile</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="doctor-box">
+                <div class="image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor2.png" alt="<?php bloginfo('clinic'); ?>">
+                </div>
+                
+                <div class="name-dr">
+                    <h3 class="name">Dr. John Doe</h3>
+                    <p>Department</p>
+                    
+                    <div class="icon-dr">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="btn-pf">
+                        <button class="profile">View Profile</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
+    </div>   
+</section>
+
 
 
 <section class="appointment-page">
@@ -170,10 +244,4 @@
         </div>
 
 </section>
-
-
-
-
-
-
 <?php get_footer(); ?>
