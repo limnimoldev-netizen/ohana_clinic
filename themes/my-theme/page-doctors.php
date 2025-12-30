@@ -23,7 +23,7 @@
             
             <div class="doctor-box">
                 <div class="image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor1.png" alt="<?php bloginfo('clinic'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor12.png" alt="<?php bloginfo('clinic'); ?>">
                 </div>
                 
                 <div class="name-dr">
@@ -43,7 +43,7 @@
 
             <div class="doctor-box">
                 <div class="image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor2.png" alt="<?php bloginfo('clinic'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor22.png" alt="<?php bloginfo('clinic'); ?>">
                 </div>
                 
                 <div class="name-dr">
@@ -63,7 +63,7 @@
 
             <div class="doctor-box">
                 <div class="image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor3.png" alt="<?php bloginfo('clinic'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor33.png" alt="<?php bloginfo('clinic'); ?>">
                 </div>
                 
                 <div class="name-dr">
@@ -83,7 +83,7 @@
 
             <div class="doctor-box">
                 <div class="image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor4.png" alt="<?php bloginfo('clinic'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor44.png" alt="<?php bloginfo('clinic'); ?>">
                 </div>
                 
                 <div class="name-dr">
@@ -112,7 +112,7 @@
             
             <div class="doctor-box">
                 <div class="image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor3.png" alt="<?php bloginfo('clinic'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor33.png" alt="<?php bloginfo('clinic'); ?>">
                 </div>
                 
                 <div class="name-dr">
@@ -132,7 +132,7 @@
 
             <div class="doctor-box">
                 <div class="image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor4.png" alt="<?php bloginfo('clinic'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor44.png" alt="<?php bloginfo('clinic'); ?>">
                 </div>
                 
                 <div class="name-dr">
@@ -152,7 +152,7 @@
 
             <div class="doctor-box">
                 <div class="image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor1.png" alt="<?php bloginfo('clinic'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor12.png" alt="<?php bloginfo('clinic'); ?>">
                 </div>
                 
                 <div class="name-dr">
@@ -172,7 +172,7 @@
 
             <div class="doctor-box">
                 <div class="image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor2.png" alt="<?php bloginfo('clinic'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor22.png" alt="<?php bloginfo('clinic'); ?>">
                 </div>
                 
                 <div class="name-dr">
@@ -238,7 +238,7 @@
             </div>
 
             <div class="appt-image">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor5.png" alt="<?php bloginfo('clinic'); ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/doctor55.png" alt="<?php bloginfo('clinic'); ?>">
             </div>
 
         </div>
