@@ -19,8 +19,6 @@
         </nav>
     </header>
 
-    <main>
-
-   
+   <main>
 
 
