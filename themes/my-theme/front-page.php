@@ -19,6 +19,7 @@
             <div class="btn-inbox">
                 <button class="appoinment">Book Appointment</button>
             </div>
+    
         </div>
 
     </div>

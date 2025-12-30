@@ -40,7 +40,7 @@ header{
 
 .logo-banner img{
     width: 100%;
-    height: 100%;
+    height: 480px;
 }
 
 .banner {
@@ -57,18 +57,25 @@ header{
 }
 .banner{
     position: absolute;
-    top: 116px;
-    right: 200px;
+    top: 180px;
+    right: 500px;
 }
 
 .banner h1{
-    color: #03045e;
+    color: #caf0f8;
     font-size: 36px;
+    right: 20px;
 }
 .banner p{
-    color: #03045e;
+    color: #caf0f8;
     font-size: 20px;
    
+}
+
+.banner form input{
+    padding: 15px;
+    width: 20%;
+    border-radius: 30px;
 }
 
 .btn-inbox button{
